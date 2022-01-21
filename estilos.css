@@ -1,0 +1,407 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.topo {
+    display: flex;
+    height: 54px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-color: #DBDBDB;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    height: fit-content;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.divisao {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    align-self: flex-start;
+    margin-right: 10px;
+}
+
+header {
+    width: 90vw;
+    max-width: 934px;
+    height: 54px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo nav {
+    width: 161px;
+    height: 28px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topo nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.topo  nav ul li a {
+    color: #000;
+}
+
+.topo nav ul li .md.hydrated {
+    font-size: 22px;
+}
+
+
+.iconsInsta {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.iconsInsta .md.hydrated {
+    font-size: 26px;
+    margin-right: 11.38px;
+}
+
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 215px;
+    height: 28px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+
+.logoInstagram {
+    height: 29px;
+    width: 103px;
+}
+
+.stories {
+    height: 118px;
+    width: 614px;
+    top: 88px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.story {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 79px;
+}
+
+
+.storyBackground    {
+width: 66px;
+height: 66px;
+border-radius: 33px;
+position: absolute;
+}
+
+.storyImage {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    position: absolute;
+}
+
+.post {
+    height: 749px;
+    width: 614px; 
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.userStory {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}
+
+.feed {
+    display: flex;
+    margin-top: 88px;
+    width: 935px;
+}
+
+
+.postSuperior {
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postSuperior img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+.postSuperior p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.options {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    padding: 8px 6px;
+    margin-right: 18.5px;
+}
+
+.optionsDot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #262626;
+    margin-left: 2px;
+}
+
+.imgPost {
+    width: 612px;
+    height: 612px;
+}
+
+.postInteractions {
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 17.75px;
+    margin-right: 17.60px;
+
+}
+
+.likes{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 14px;
+    margin-left: 17px;
+    margin-right: 5px;
+    margin-top: -5px;
+    font-size: 14px;
+    line-height: 16,41px;
+
+}
+
+.likes img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.likes strong {
+font-weight: 500;
+}
+
+.sidebar {
+    width: 293px;
+    margin-left: 26px;
+}
+
+.perfil {
+display: flex;
+align-items: center;
+margin-bottom: 24px;
+}
+
+.perfil img {
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+    margin-right: 17px;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.perfil p{
+    font-weight: 300;
+}
+
+.sugestoes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.sugestoes p {
+    color: #8E8E8E;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.sugestoes strong {
+font-weight: 500;
+font-size: 12px;
+color: #262626;
+text-align: right;
+}
+
+.seguir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.seguir strong {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.seguir p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;    
+}
+
+.seguir img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+
+.seguirTexto {
+    margin-left: 11px;
+}
+
+.seguir a{
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+    color: #139EF2;
+}
+
+a {
+    color: inherit;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.sobre {
+    margin-top: 33px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    align-items: center;
+    color: #C7C7C7;
+}
+
+.copyright {
+    margin-top: 18px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    align-items: center;
+    color: #C7C7C7;
+}
+
+.containerStory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    position: relative;
+    margin-top: 35px;
+}
+
+@media (max-width: 935px) {
+.sidebar{
+    display: none;
+}
+.feed{
+    justify-content: center;
+}
+}
+
+@media (max-width: 614px) {
+.post{
+    width: 100vw;
+}
+.postSuperior{
+    width: 100vw;
+}
+.imgPost{
+    width: 100vw;
+}
+.stories {
+    width: 100vw;
+    background-color: none;
+}
+
+}
