@@ -518,7 +518,7 @@ a:active {
   .pesquisa {
     width: 103px;
     height: 27px;
-    background-image: url("/images/logo.png");
+    background-image: url("images/logo.png");
     background-size: cover;
     background-position: center;
   }
