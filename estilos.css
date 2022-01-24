@@ -1,22 +1,21 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
-
+    font-family: "Roboto", sans-serif;
+    background-color: #e5e5e5;
 }
-
+  
 .conteudo {
     display: flex;
     justify-content: center;
 }
-
+  
 .topo {
     display: flex;
     height: 54px;
     position: fixed;
     top: 0;
     left: 0;
-    border-color: #DBDBDB;
-    background-color: #FFFFFF;
+    border-color: #dbdbdb;
+    background-color: #ffffff;
     border: 1px solid;
     align-items: center;
     width: 100%;
@@ -25,15 +24,15 @@ body {
     height: fit-content;
     border-bottom: 1px solid #dbdbdb;
 }
-
+  
 .divisao {
     width: 1px;
     height: 22px;
-    background-color: #DBDBDB;
+    background-color: #dbdbdb;
     align-self: flex-start;
     margin-right: 10px;
 }
-
+  
 header {
     width: 90vw;
     max-width: 934px;
@@ -43,7 +42,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+  
 .topo nav {
     width: 161px;
     height: 28px;
@@ -51,167 +50,224 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
-
-.topo nav ul {
+  
+  .topo nav ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-
-.topo  nav ul li a {
+  }
+  
+  .topo nav ul li a {
     color: #000;
-}
-
-.topo nav ul li .md.hydrated {
+  }
+  
+  .topo nav ul li .md.hydrated {
     font-size: 22px;
-}
-
-
-.iconsInsta {
+  }
+  
+  .iconsInsta {
     display: flex;
     align-items: center;
     width: fit-content;
     height: fit-content;
-}
-
-.iconsInsta .md.hydrated {
+  }
+  
+  .iconsInsta .md.hydrated {
     font-size: 26px;
     margin-right: 11.38px;
-}
-
-
-.pesquisa{
+  }
+  
+  .pesquisa {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     width: 215px;
     height: 28px;
-    background-color: #FAFAFA;
-    border: 1px solid #DBDBDB;
     box-sizing: border-box;
     border-radius: 3px;
     font-size: 12px;
     line-height: 14px;
     font-weight: 400;
-}
-
-
-.logoInstagram {
+  }
+  
+  header input {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    height: 36px;
+    background-color: #fafafa;
+  }
+  
+  header input:focus {
+    outline: none;
+  }
+  
+  header input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #979797;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  header input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #979797;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  header input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #979797;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  header input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #979797;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .logoInstagram {
     height: 29px;
     width: 103px;
-}
-
-.stories {
+  }
+  
+  .stories {
     height: 118px;
     width: 614px;
-    top: 88px;
     margin-bottom: 24px;
     display: flex;
     flex-direction: row;
-    background: #FFFFFF;
-    border: 1px solid #DBDBDB;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
     box-sizing: border-box;
     border-radius: 3px;
-}
-.story {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .story {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 79px;
-}
-
-
-.storyBackground    {
-width: 66px;
-height: 66px;
-border-radius: 33px;
-position: absolute;
-}
-
-.storyImage {
+    width: 81px;
+    flex-shrink: 0;
+  }
+  
+  .storyBackground {
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    position: absolute;
+  }
+  
+  .storyImage {
     width: 56px;
     height: 56px;
     border-radius: 28px;
     position: absolute;
-}
-
-.post {
+  }
+  
+  .slide-button--right {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    position: absolute;
+    top: calc(50% - 13px);
+    right: 0px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+    cursor: pointer;
+  }
+  
+  .slide-button--right .arrow {
+    width: 40%;
+    height: 40%;
+    border-top: 2px solid #666;
+    border-right: 2px solid #666;
+    transform: rotate(45deg);
+  }
+  
+  .post {
     height: 749px;
-    width: 614px; 
-    background-color: #FFFFFF;
+    width: 614px;
+    background-color: #ffffff;
     margin-bottom: 60px;
-    border: 1px solid #DBDBDB;
+    border: 1px solid #dbdbdb;
     box-sizing: border-box;
     border-radius: 3px;
-}
-
-.userStory {
-    
+  }
+  
+  .userStory {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #262626;
-}
-
-.feed {
+  }
+  
+  .feed {
     display: flex;
     margin-top: 88px;
     width: 935px;
-}
-
-
-.postSuperior {
+  }
+  
+  .postSuperior {
     height: 60px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.postSuperior img {
+  }
+  
+  .postSuperior img {
     width: 32px;
     height: 32px;
     border-radius: 16px;
     margin-left: 16px;
     margin-right: 16px;
-
-}
-
-.postSuperior p {
+  }
+  
+  .postSuperior p {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #262626;
-}
-
-.options {
+  }
+  
+  .options {
     display: flex;
     justify-content: end;
     cursor: pointer;
     padding: 8px 6px;
     margin-right: 18.5px;
-}
-
-.optionsDot {
+  }
+  
+  .optionsDot {
     width: 3px;
     height: 3px;
     border-radius: 50%;
     background-color: #262626;
     margin-left: 2px;
-}
-
-.imgPost {
+  }
+  
+  .imgPost {
     width: 612px;
     height: 612px;
-}
-
-.postInteractions {
+  }
+  
+  .postInteractions {
     height: 32px;
     display: flex;
     justify-content: space-between;
@@ -220,11 +276,10 @@ position: absolute;
     font-size: 22px;
     cursor: pointer;
     margin-left: 17.75px;
-    margin-right: 17.60px;
-
-}
-
-.likes{
+    margin-right: 17.6px;
+  }
+  
+  .likes {
     display: flex;
     align-items: center;
     height: 20px;
@@ -233,175 +288,238 @@ position: absolute;
     margin-right: 5px;
     margin-top: -5px;
     font-size: 14px;
-    line-height: 16,41px;
-
-}
-
-.likes img {
+    line-height: 16, 41px;
+  }
+  
+  .likes img {
     height: 20px;
     width: 20px;
     margin-right: 5px;
-}
-
-.likes strong {
-font-weight: 500;
-}
-
-.sidebar {
+  }
+  
+  .likes strong {
+    font-weight: 500;
+  }
+  
+  .sidebar {
     width: 293px;
     margin-left: 26px;
-}
-
-.perfil {
-display: flex;
-align-items: center;
-margin-bottom: 24px;
-}
-
-.perfil img {
+  }
+  
+  .perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .perfil img {
     height: 56px;
     width: 56px;
     border-radius: 28px;
     margin-right: 17px;
-}
-
-strong {
+  }
+  
+  strong {
     font-weight: 500;
-}
-
-.perfil p{
+  }
+  
+  .perfil p {
     font-weight: 300;
-}
-
-.sugestoes {
+  }
+  
+  .sugestoes {
     display: flex;
     justify-content: space-between;
     margin-bottom: 17px;
-}
-
-.sugestoes p {
-    color: #8E8E8E;
+  }
+  
+  .sugestoes p {
+    color: #8e8e8e;
     font-weight: 500;
     font-size: 12px;
-}
-
-.sugestoes strong {
-font-weight: 500;
-font-size: 12px;
-color: #262626;
-text-align: right;
-}
-
-.seguir{
+  }
+  
+  .sugestoes strong {
+    font-weight: 500;
+    font-size: 12px;
+    color: #262626;
+    text-align: right;
+  }
+  
+  .seguir {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
-}
-
-.seguir strong {
+  }
+  
+  .seguir strong {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #262626;
-}
-
-.seguir p {
+  }
+  
+  .seguir p {
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 14px;
-    color: #8E8E8E;    
-}
-
-.seguir img{
+    color: #8e8e8e;
+  }
+  
+  .seguir img {
     width: 32px;
     height: 32px;
     border-radius: 16px;
-}
-
-
-.seguirTexto {
+  }
+  
+  .seguirTexto {
     margin-left: 11px;
-}
-
-.seguir a{
+  }
+  
+  .seguir a {
     font-weight: 500;
     font-size: 12px;
     text-align: right;
-    color: #139EF2;
-}
-
-a {
+    color: #139ef2;
+  }
+  
+  a {
     color: inherit;
-}
-a:link {
+  }
+  a:link {
     text-decoration: none;
-}
-
-a:visited {
+  }
+  
+  a:visited {
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
-
-a:active {
+  }
+  
+  a:active {
     text-decoration: underline;
-}
-
-.sobre {
+  }
+  
+  .sobre {
     margin-top: 33px;
     align-items: center;
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
     align-items: center;
-    color: #C7C7C7;
-}
-
-.copyright {
+    color: #c7c7c7;
+  }
+  
+  .copyright {
     margin-top: 18px;
     align-items: center;
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
     align-items: center;
-    color: #C7C7C7;
-}
-
-.containerStory {
+    color: #c7c7c7;
+  }
+  
+  .containerStory {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: blueviolet;
     position: relative;
     margin-top: 35px;
-}
-
-@media (max-width: 935px) {
-.sidebar{
+  }
+  
+  .barraInferiorMobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 54px;
     display: none;
-}
-.feed{
-    justify-content: center;
-}
-}
-
-@media (max-width: 614px) {
-.post{
-    width: 100vw;
-}
-.postSuperior{
-    width: 100vw;
-}
-.imgPost{
-    width: 100vw;
-}
-.stories {
-    width: 100vw;
-    background-color: none;
-}
-
-}
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .barraInferiorMobile ion-icon:first-child {
+    margin-left: 18px;
+  }
+  .barraInferiorMobile ion-icon:last-child {
+    margin-right: 18px;
+  }
+  
+  @media (max-width: 935px) {
+    .sidebar {
+      display: none;
+    }
+    .feed {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 614px) {
+    .post {
+      width: 100vw;
+      height: fit-content;
+    }
+    .postSuperior {
+      width: 100vw;
+    }
+    .imgPost {
+      width: 100vw;
+      height: fit-content;
+    }
+    .imgPost img {
+      width: 100vw;
+    }
+    .stories {
+      width: 100vw;
+      background: none;
+      overflow: hidden;
+      margin: 0px;
+    }
+    .atualizaTop {
+      display: none;
+    }
+  
+    .topo nav ul {
+      justify-content: flex-end;
+    }
+  
+    .logoInstagram {
+      display: none;
+    }
+  
+    .barraInferiorMobile {
+      display: flex;
+    }
+  
+    .slide-button--right {
+      display: none;
+    }
+  
+    .pesquisa input {
+      display: none;
+    }
+    .pesquisa {
+      width: 103px;
+      height: 27px;
+      background-image: url("/images/logo.png");
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .feed {
+      margin-top: 56px;
+    }
+  
+    .topo nav {
+      width: fit-content;
+    }
+  }
+  
